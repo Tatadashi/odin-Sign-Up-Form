@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+#title {
+    background-image: url(./formBG.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#titleBG,
+#creditBG {
+    background-color: rgb(60, 54, 54, 0.5);
+    position: absolute;
+}
+
+#titleText {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+#titleBG {
+    top: 20%;
+    width: 100vw;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#creditBG {
+    bottom: 0;
+    width: 100vw;
+}
+
+#credits {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
