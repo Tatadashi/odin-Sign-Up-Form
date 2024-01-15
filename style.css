@@ -1,33 +1,47 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(./Norse-Bold.otf);
+}
+
 * {
     margin: 0;
 }
 
-@font-face {
-    font-family: 'Norse Bold';
-    src: url(Norse-Bold.otf);
+body {
+    display: flex;
+}
+
+img {
+   height: 5rem; 
 }
 
 #title-area {
-    background-image: url(./formBG.jpg);
+    background-image: url(./images/formBG.jpg);
     background-size: cover;
     background-position: center;
-    width: 100vw;
+    width: 40vw;
     height: 100vh;
     position: relative;
 }
 
+#title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+}
+
 #title-TXT {
     font-size: 50px;
-    top: 20%;
     font-family: 'Norse Bold', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#title-TXT,
+#title-container,
 #IMG-credits-TXT {
     text-align: center;
     color: white;
     background-color: rgb(60, 54, 54, 0.5);
-    width: 100vw;
+    width: 40vw;
     position: absolute;
 }
 
