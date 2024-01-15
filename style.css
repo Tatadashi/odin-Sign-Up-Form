@@ -1,8 +1,13 @@
-body {
+* {
     margin: 0;
 }
 
-#title {
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(Norse-Bold.otf);
+}
+
+#title-area {
     background-image: url(./formBG.jpg);
     background-size: cover;
     background-position: center;
@@ -11,34 +16,22 @@ body {
     position: relative;
 }
 
-#titleBG,
-#creditBG {
+#title-TXT {
+    font-size: 50px;
+    top: 20%;
+    font-family: 'Norse Bold', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#title-TXT,
+#IMG-credits-TXT {
+    text-align: center;
+    color: white;
     background-color: rgb(60, 54, 54, 0.5);
+    width: 100vw;
     position: absolute;
 }
 
-#titleText {
-    margin: 0;
-    text-align: center;
-    color: white;
-}
-
-#titleBG {
-    top: 20%;
-    width: 100vw;
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-#creditBG {
-    bottom: 0;
-    width: 100vw;
-}
-
-#credits {
-    margin: 0;
-    text-align: center;
-    color: white;
+#IMG-credits-TXT {
     font-size: small;
+    bottom: 0;
 }
-
