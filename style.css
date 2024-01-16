@@ -11,8 +11,32 @@ body {
     display: flex;
 }
 
-img {
-   height: 5rem; 
+input {
+    background-color: #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+    box-shadow: 1px 1px black;
+}
+
+button {
+    color: white;
+    background-color: #596D48;
+    border-radius: 5px;
+    padding-inline: 30px;
+    padding-block: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+}
+
+a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #title-area {
@@ -31,6 +55,10 @@ img {
     top: 20%;
 }
 
+#logo {
+    height: 6rem; 
+ }
+
 #title-TXT {
     font-size: 50px;
     font-family: 'Norse Bold', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -48,4 +76,72 @@ img {
 #IMG-credits-TXT {
     font-size: small;
     bottom: 0;
+}
+
+#content-area {
+    width: 60vw;
+    height: 100vh;
+}
+
+#description {
+    height: calc(20vh + 6rem);
+    position: relative;
+}
+
+.description-text {
+    position: absolute;
+    top: 10%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#description,
+#input-area,
+#link-area {
+    padding-inline: 20px;
+}
+
+#description,
+#link-area {
+    background-color: lightgrey;
+}
+
+#input-area {
+    height: 30vh;
+    position: relative;
+}
+
+#multiple-inputs {
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: small;
+}
+
+.single-input {
+    display: flex;
+    flex-direction:column;
+}
+
+#password-error-text {
+    color: red;
+    font-size: smaller;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+#link-area {
+    height: calc(100vh - 30vh - 20vh - 6rem);
+    position: relative;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    gap: 5px;
+    font-size: smaller;
 }

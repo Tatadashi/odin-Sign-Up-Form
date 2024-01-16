@@ -10,7 +10,7 @@
 <body>
     <div id="title-area">
         <div id="title-container">
-            <img src="./images/odin-logo.png" alt="Logo of The Odin Project">
+            <img id="logo" src="./images/odin-logo.png" alt="Logo of The Odin Project">
             <p id="title-TXT">Odin</p>
         </div>
         <p id="IMG-credits-TXT">
@@ -18,8 +18,56 @@
             Specific Image "Enchanted Forest" by AzDude on WinCustomize
         </p>
     </div>
-    <div id="input-area">
-        yada
+    <div id="content-area">
+        <div id="form-area">
+            <div id="description">
+                <p class="description-text">
+                    <br>
+                    <br>
+                    This is a definitely real service that is in operation for all those who are interested. It is very beneficial to your life. <br>
+                    Sign up <i>now</i>.<br>
+                    <br>
+                    You <i>gotta</i>.
+                </p>
+            </div>
+            <div id="input-area">
+                <p class="description-text">Start now</p>
+                <div id="multiple-inputs">
+                    <div class="single-input">
+                        <label>First Name</label>
+                        <input type="text" name="first-name" id="first-name-id">
+                    </div>
+                    <div class="single-input">
+                        <label>Email</label>
+                        <input type="text" name="email" id="email-id">
+                    </div>
+                    <div class="single-input">
+                        <label>Password</label>
+                        <input class="error" type="password" name="password" id="password-id">
+                        <p id="password-error-text">*Passwords do not match</p>
+                    </div>
+                    <div class="single-input">
+                        <label>Last Name</label>
+                        <input type="text" name="last-name" id="last-name-id">
+                    </div>
+                    <div class="single-input">
+                        <label>Phone Number</label>
+                        <input type="tel" name="phone-number" id="phone-number-id">
+                    </div>
+                    <div class="single-input">
+                        <label>Confirm Password</label>
+                        <input class="error" type="password" name="confirm-password" id="confirm-password-id">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="link-area">
+            <button type="submit">Create Account</button>
+            <div id="login">
+                <p>Already have an account?</p>
+            <a href="#">Log in</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
