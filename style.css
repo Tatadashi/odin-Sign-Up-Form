@@ -108,12 +108,12 @@ a {
 }
 
 #input-area {
-    height: 30vh;
+    height: 40vh;
     position: relative;
 }
 
 #multiple-inputs {
-    padding-top: 45px;
+    padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -135,7 +135,7 @@ a {
 }
 
 #link-area {
-    height: calc(100vh - 30vh - 20vh - 6rem);
+    height: calc(100vh - 40vh - 20vh - 6rem);
     position: relative;
 }
 
